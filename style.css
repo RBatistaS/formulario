@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAF7F2;
+}
+nav {
+    background-color:#ffffff;
+    height: 70px;
+    width: 100vw;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.192);
+    
+    
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+ nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    float: left;
+    text-decoration: none;
+}
+
+#logoC {
+    margin-left: 15vw;
+    margin-right: 60vw;
+}
+
+#Contato {
+    
+}
+
+form {
+    background-color:white;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.219);
+    
+}
+
+form >label {
+    display: inline-block;
+    margin:5px;
+}
+
+button {
+    background-color:rgba(0, 183, 255, 0.13);
+    display:block;
+    padding: 5px 40px;
+    margin: auto;  
+    margin-top:20px;
+}
+
+div {
+    display: inline-block;
+    margin:5px;
+}
+
+
+
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 200px;
+}

@@ -24,11 +24,12 @@ nav {
     line-height: 50px;
     float: left;
     text-decoration: none;
+    font-size: 3.5vh;
 }
 
 #logoC {
-    margin-left: 15vw;
-    margin-right: 60vw;
+    margin-left: 20vw;
+    margin-right: 50vw;
 }
 
 #Contato {
@@ -51,6 +52,11 @@ form {
 form >label {
     display: inline-block;
     margin:5px;
+}
+
+#camada-1{
+    margin-left: 50px;
+    
 }
 
 button {
